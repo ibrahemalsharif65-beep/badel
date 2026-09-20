@@ -1,7 +1,7 @@
 import { lazy, Suspense } from 'react'
 import { BrowserRouter, Navigate, Outlet, Route, Routes, useLocation } from 'react-router-dom'
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
-import { AuthProvider, useAuth } from '@/context/AuthContext'
+import { AuthProvider, useAuth } from './context/AuthContext'
 import { ToastProvider } from '@/components/Toast'
 import { AppShell } from '@/components/AppShell'
 import { Spinner } from '@/components/ui'
